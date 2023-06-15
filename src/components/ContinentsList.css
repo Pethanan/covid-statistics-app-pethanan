@@ -1,0 +1,13 @@
+.continents-list {
+  list-style: none;
+  margin: 10px 0;
+  background-color: rgb(232, 232, 238);
+  width: 95vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  font-size: 15px;
+  padding: 20px 0;
+  font-weight: 670;
+}

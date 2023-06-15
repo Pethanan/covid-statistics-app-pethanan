@@ -28,6 +28,41 @@
   color: #61dafb;
 }
 
+table {
+  border: 1px solid black;
+  border-right: none;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+thead,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 14px;
+  font-weight: 400;
+}
+thead {
+  background-color: rgba(10, 10, 112, 0.274);
+}
+
+thead td {
+  font-weight: 700;
+}
+header {
+  margin: 30px 0;
+  font-weight: 800;
+  background-color: rgb(9, 9, 109);
+  display: inline-block;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

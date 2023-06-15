@@ -1,0 +1,21 @@
+h4 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+form input {
+  margin-right: 30px;
+  padding: 5px 10px;
+}
+
+form button {
+  background-color: rgb(165, 165, 201);
+  border: none;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: rgb(1, 1, 46);
+  color: white;
+}
